@@ -4,4 +4,4 @@ outp = set()
 for word in lines:
     if word.lower() == word.lower()[::-1]:
         outp.add(word)
-print(*outp, sep='\n')
+print(*sorted(outp), sep='\n')
